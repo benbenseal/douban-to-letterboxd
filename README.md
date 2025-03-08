@@ -1,6 +1,6 @@
 # douban-to-letterboxd
 
-Python代码和此Readme.md 均有 Claude 3.7 Sonnet 生成。本人测试通过后，在此发布。
+douban_to_letterboxd.py 代码和此Readme.md 均由 Claude 3.7 Sonnet 生成。本人调试测试通过后，在此分享给有需求的人。
 
 # 豆瓣观影数据导出工具
 
