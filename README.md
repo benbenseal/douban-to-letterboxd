@@ -76,7 +76,7 @@ python douban_to_letterboxd.py
 - 程序已加入随机延迟以避免被检测为机器人
 - 某些电影可能无法获取IMDb ID，这些电影将在Letterboxd导入时被跳过。另外，TV剧集也无法在Letterboxd上标记。
 - 豆瓣的5星制对应为Letterboxd的5分制
-- 默认可读取1500条以内的观影记录。如果你的标记数量超过1500条，请找到 process_all_collections 然后修改 max_pages 的值。默认是100，则可以读取100*15=1500条数据，假如你有3000条数据，则修改为 max_pages = 200
+- 默认可读取1500条以内的观影记录。如果你的标记数量超过1500条，请找到 def process_all_collections(self, max_pages=100): 这一行。这里 max_pages 的值默认是100，表示可以读取100*15=1500条数据，假如你有2700条数据，2700/15=则修改为 max_pages = 180
 
 ## 导出数据格式
 
